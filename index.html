@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гра "21"</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Гра 21</h1>
+    <label for="playerName">Впишіть своє ім'я:</label>
+    <input type="text" id="playerName">
+    <button onclick="startGame()">Розпочати гру</button>
+    <div id="result"></div>
+  </div>
+
+  <div id="playerCards" class="card-container"></div>
+  <div id="computerCards" class="card-container"></div>
+  <style>
+  .card {
+    width: 100px;
+    height: 130px;
+    margin: 50px;
+  }
+</style>
+<script src="script.js"></script>
+</body>
+</html>
